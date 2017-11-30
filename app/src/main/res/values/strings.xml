@@ -2,6 +2,7 @@
     <string name="app_name">Papas60er</string>
     <string name="caption_lock">Löse das Rätsel und ergattere den Code für die Truhe!</string>
     <string name="button_solve_text">Lösen!</string>
+    <string name ="caption_code">Herzlichen Glückwunsch. Der Code lautet:</string>
     <string-array name="spinner_array">
         <item>Jahr</item>
         <item>Monat</item>
