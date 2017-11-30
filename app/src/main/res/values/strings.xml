@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Papas60er</string>
+    <string name="caption_lock">Löse das Rätsel und ergattere den Code für die Truhe!</string>
+    <string name="button_solve_text">Lösen!</string>
+    <string-array name="spinner_array">
+        <item>Jahr</item>
+        <item>Monat</item>
+        <item>Meter</item>
+        <item>Kg</item>
+        <item>MHz</item>
+        <item>PS</item>
+        <item>Ampere</item>
+    </string-array>
+</resources>
