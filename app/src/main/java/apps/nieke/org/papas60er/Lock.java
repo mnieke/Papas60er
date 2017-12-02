@@ -1,11 +1,13 @@
 package apps.nieke.org.papas60er;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 class Lock extends AppCompatActivity implements View.OnClickListener {
 
@@ -49,7 +51,11 @@ class Lock extends AppCompatActivity implements View.OnClickListener {
         }
 
         if(firstDigit == 0 && secondDigit == 0 && thirdDigit == 9 && unitString.equals("Monat")) {
-            // TODO create solution screen
+            Intent intent = new Intent(this, Code.class);
+            startActivity(intent);
+        }
+        else {
+            Toast.makeText(getApplicationContext(), "Leider der falsche Code!", Toast.LENGTH_LONG).show();
         }
     }
 }
